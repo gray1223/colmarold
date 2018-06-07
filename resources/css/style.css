@@ -159,6 +159,7 @@ nav li:hover {
   width: 60%;
   margin: auto 0.5rem;
   padding: 1rem;
+  margin-right: 4rem;
 }
 
 .lower-img-container img {
@@ -176,7 +177,7 @@ nav li:hover {
   font-size: 3rem;
   font-weight: 700;
   width: 55rem;
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0 3rem 1.45rem;
 
 }
 
@@ -187,11 +188,13 @@ nav li:hover {
   width: 60rem;
   line-height: 1.4;
   font-size: 1.1255rem;
+  padding-left: 1.45rem;
 }
 
 .demo-content span {
   line-height: 1.2;
-  letter-spacing: 1;
+  letter-spacing: 0;
+  padding-left: 0;
 }
 
 .topics {
@@ -217,6 +220,7 @@ nav li:hover {
 
 .topic-img img {
   height: auto;
+  padding: 0.5rem;
 }
 
 .topic-content {
@@ -255,4 +259,78 @@ nav li:hover {
 .topic-link a:hover {
   color: darkred;
   transition: all 0.1s linear;
+}
+
+.topic-link a:active {
+  color: red;
+}
+
+.course-section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  color: #403F3F;
+  background-color: #d8d8d8;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.both-rows {
+  background-color: white;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 3rem;
+  background-color: #d8d8d8;
+  padding-bottom: 2rem;
+}
+
+
+.section-courses .content {
+  width: 100%;
+}
+
+.item {
+  display: inline-flex;
+  margin: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 1rem;
+}
+
+.item-content {
+  padding: 1rem;
+  max-width: 70%;
+  text-align: left;
+}
+
+.item-content h1 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.item-content h2 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #403F3F;
+}
+
+.item-content div {
+  padding-top: 1rem;
+  line-height: 1.4;
+  color: inherit;
+}
+
+#special {
+
 }
