@@ -2,64 +2,129 @@ html,
 body {
   font-size: 16px;
   font-family: "Merriweather Sans", sans-serif;
-  margin: 0;
 }
 
 .content {
-
+  width: 100%;
+  padding-top: 4rem;
 }
 
 header img {
-  width: 3.5rem;
-  height: auto;
-}
-
-header {
-  height: 4rem;
+  margin: auto 0;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  width: 3rem;
+}
+
+header  {
+  height: 5rem;
+  position: fixed;
   width: 100%;
-  padding-top: .25rem;
-}
-
-
-nav ul {
+  background-color: white;
+  z-index: 999;
+  font-size: 1.5rem;
   display: flex;
-  flex-wrap: nowrap;
-  margin-left: 77rem;
-  margin-right: 1.5rem;
-
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .05rem;
 }
 
-ul li {
+nav {
+  color: black;
+}
+
+nav li {
   display: inline-flex;
   align-items: center;
-  color: black;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: auto 1rem;
-
+  color: #403F3F;
+  margin: auto 1.5rem;
 }
 
+
+
 .logo-title {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: auto 1.5rem;
 }
 
 .header-title {
-
+  font-size: 2rem;
 }
 
 #first-word {
   font-weight: 600;
-  color: black;
+  color: #403F3F;
 }
 
 #second-word {
-  font-weight: 300;
-  color: gray;
+  font-weight: 395;
+  color: #d8d8d8;
+}
+
+.main-container {
+  background-color: #d8d8d8;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%
+}
+
+.img-container {
+  margin: 4rem 3rem;
+  width: 60%;
+}
+
+.jumotron {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  position: relative;
+  float: left;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.jumbotron div {
+  padding: 2rem;
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #403F3F;
+  width: 26rem;
+}
+
+.smaller-text {
+  font-size: 1.5rem;
+  color: #403F3F;
+  width: 26rem;
+}
+
+.start-button {
+  width: 25rem;
+  background-color: #403F3F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.start-button:hover {
+  background-color: darkred;
+  transition: background-color 0.1s linear;
+  cursor: pointer;
+}
+
+.start-button:active {
+  background-color: red;
+  cursor: pointer;
+  text-decoration: none;
 }
